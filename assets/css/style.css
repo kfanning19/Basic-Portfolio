@@ -1,0 +1,60 @@
+body{
+	background-image: url(../images/knitting.png);
+	width: 960px;
+	float: left;
+	margin: 0;
+}
+header{
+	width: 100%;
+	background: #ffffff;
+
+}
+#biopic{
+	width: 30%;
+	height: 30%;
+	float: left;
+	
+}
+
+footer{
+	clear: both;
+	width: 100%;
+	background: #666666;
+}
+.link{
+	float: right;
+}
+.bio{
+	width: 650px;
+}
+
+.main{
+	border-color: #dddddd;
+	background: #ffffff;
+	width: 650px;
+	overflow: auto;
+
+}
+
+.connect{
+	width: 270px;
+	background: #ffffff;
+	overflow: auto;
+	float: right;
+}
+
+#pic{
+	width: 25px;
+	height: 25px;
+}
+
+h1{
+	color: #FFFFFF;
+	background: #4aaaa5;
+	width: 25%;
+}
+
+.boxset{
+	color: #FFFFFF;
+	background: #4aaaa5;
+}
