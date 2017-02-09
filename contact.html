@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About Me</title>
+	<title>Contact</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
 </head>
 <body>
+<div class="container">
 	<header>
 		<h1>Kristen Fanning</h1>
-
-		<div class="link">
-			<a href="index.html">About</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="#">Contact</a>
-		</div>
+			<ul class="link">
+				<li><a id="about" href="index.html">About</a></li>
+				<li><a id="portfolio" href="portfolio.html">Portfolio</a></li>
+				<li><a id="contact" href="#">Contact</a></li>
+			</ul>
 	</header>
 
 	<div class="main form">
 		<h2>Contact</h2>
 		
-		<form>
+		<form id="c_form" action="mailto:kristen.fanning@northwestern.edu">
 			Name<br>
-			<input type="text" name="name"><br>
+			<input type="text" name="name" placeholder="John Smith"><br>
 			Email <br>
-			<input type="text" name="email"><br>
-			Message<br>
-			<input type="text" name="Message"><br>
+			<input type="text" name="email" placeholder="example@email.com"><br>
+			Message <br>
+			<textarea name="Message" rows="8"></textarea><br>
 			<input type="submit">
+
+
 		</form>
+		
 	</div>
 
 		<div class="connect">
 		<h3>Connect with Me</h3>
+		<br>
 		<div class="profiles">
-			<a id="pic" href="https://github.com/kfanning19"><img src="assets/images/github.PNG" alt="github"></a>
-			<a id="pic" href="https://www.linkedin.com/in/kristen-fanning-b94b1b5a"><img src="assets/images/linkedin.PNG" alt="linkedin"></a>
-			<a id="pic" href="http://stackoverflow.com/users/7419235/k-fanning"><img src="assets/images/overflow.PNG" alt="Stack Overflow"></a>
+			<a  id=github" href="https://github.com/kfanning19"><img src="assets/images/github.PNG" alt="github" width="60px" height="60px"></a>
+			<a  id="linkedin" href="https://www.linkedin.com/in/kristen-fanning-b94b1b5a"><img src="assets/images/linkedin.PNG" alt="linkedin" width="60px" height="60px"></a>
+			<a id="stack" href="http://stackoverflow.com/users/7419235/k-fanning"><img src="assets/images/overflow.PNG" alt="Stack Overflow" width="60px" height="60px"></a>
 		</div>
 		
 	</div>
@@ -42,5 +47,6 @@
 	<footer>
 		<p>&copy; Copyright 2017 Kristen Fanning</p>
 	</footer>
+</div>
 </body>
 </html>
